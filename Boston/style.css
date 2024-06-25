@@ -1,0 +1,284 @@
+
+@font-face {
+    font-family: basketball;
+    src: url(../Boston/font/Basketball.otf);
+}
+@font-face{
+    font-family: amsterdam;
+    src: url(../Boston/font/Amsterdam\ Personal\ Use.ttf)
+}
+
+:root{
+    --celtics:#008853;
+}
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+header #nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+#nav{
+    padding:20px;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 25px;
+    border-bottom:4px solid var(--celtics);
+}
+
+#nav #folha{
+    color: var(--celtics);
+    padding-left: 40px;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#nav #ball{
+    color: orangered;
+}
+
+#nav ul{
+    display:flex;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    list-style: none;
+}
+
+a{
+    font-family:basketball;
+    color:white;
+    outline:none;
+    text-decoration: none; /*Tirou o sublinhado*/
+    font-size: 19px;
+}
+
+#nav li:hover{
+    color: var(--celtics);
+    transition: 0.3ms ;
+}
+
+body{
+    background-color:black;
+}
+
+.conteudo{
+    background-image: url(../Boston/img/BB1orwoa.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom:4px solid var(--celtics);
+}
+
+.conteudo{
+    padding: 20px;
+    display:flex;
+    color:white; 
+}
+
+#bio h1{
+    font-size: 60px;
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 40px;
+    font-family: basketball;
+}
+
+
+span{
+    color:var(--celtics);
+    font-family: amsterdam;
+}
+
+#bio p{
+    font-size: 19px;
+    align-items: center;
+    padding-left: 40px;
+    line-height: 30px;
+    font-family: basketball;
+    color: white;
+    padding-bottom: 30px;
+}
+
+
+.elenco{
+    color:white;
+    margin-top: 90px;
+}
+
+
+#jogador1{ /*JASON TATUM*/
+    display: flex;
+    gap: 90px;
+    font-family: basketball;
+}
+
+#tatum{
+    margin-left: 50px;
+    border-radius: 25px;
+    transition: .2s;
+}
+
+#tatum:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--celtics);
+}
+
+#texto h1{
+    text-align: center;
+    font-size: 40px;
+    color: var(--celtics);
+    padding-right: 100px;
+    margin-top: 50px;
+}
+
+
+#texto p{
+    text-align: center;
+    margin-top: 30px;
+    padding-right: 50px;
+    line-height: 30px;
+    align-items: center;
+}
+
+
+
+#jogador2{/*JAYLEN BROWN*/
+    display: flex;
+    gap: 80px;
+    font-family: basketball;
+    margin-top: 90px;
+}
+
+#brown{
+    margin-left: 100px;
+    border-radius: 25px;
+    transition: .2s;
+}
+
+#brown:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--celtics);
+}
+
+
+#texto2 h1{
+    text-align: left;
+    padding-left: 300px;
+    font-size: 40px;
+    color: var(--celtics);
+    margin-top: 50px;
+}
+
+#texto2 p{
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 220px;
+    line-height: 30px;
+    align-items: center;
+}
+
+
+#jogador3{ /*DERRICK WHITE*/
+    display: flex;
+    gap: 50px;
+    font-family: basketball;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+#porzingis{
+    margin-left: 50px;
+    border-radius: 25px;
+    transition: .2s;
+    margin-bottom: 30px;
+}
+
+#porzingis:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--celtics);
+}
+
+#texto3 h1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: var(--celtics);
+    padding-right: 90px;
+    padding-left: 100px;
+}
+
+#texto3 p{
+    text-align: center;
+    margin-top: 30px;
+    padding-right: 100px;
+    line-height: 30px;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.footer{
+    font-family: basketball;
+    padding: 5px;
+    justify-content:center;
+    display: flex;
+    padding-left:90px;
+    border-top:2px solid var(--celtics);
+}
+
+.footer #logo{
+    margin-top: 90px;
+    padding-right: 40px;
+}
+
+#nomes{
+    justify-content: center;
+}
+
+#nomes h2{
+    color: var(--celtics);
+    margin-top: 40px;
+    justify-content: center;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+#nomes a{
+    margin-top: 5px;
+    padding: 1px;
+}
+
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    align-items:center;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#nomes li:hover{
+    color: var(--celtics);
+    transition: 8ms all;
+}
+
+.social i{
+    padding-left: 150px;
+    color: white;
+    align-items: center;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.social i:hover{
+    color: var(--celtics);
+    transition: 8ms all;
+}
